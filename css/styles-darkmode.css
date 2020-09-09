@@ -1,5 +1,7 @@
 body {
   font-family: "Open Sans", sans-serif;
+  background-color: #121212;
+  color: #4c4c4c;
 }
 
 h1, h2, h3 {
@@ -7,7 +9,12 @@ h1, h2, h3 {
 }
 
 h2 {
-  color: #3046C5;
+  color: #901CAD;;
+}
+
+h5 {
+  color: #0056B3;
+  font-weight: bold;
 }
 
 header h2 {
@@ -53,8 +60,40 @@ header h2 {
 /* Code Challenge Styling Below: */
 
 .footer-darkmode {
-  background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+  background-image: linear-gradient(to left, #5637DD, #3046C5, #60106B);
   padding: 20px 0;
-  color: white;
-  
+}
+
+.footer-darkmode h5 {
+  color: #ffffff;
+}
+
+.breadcrumb {
+  background-color: #262626;
+}
+
+.form-control {
+  background-color: #262626;
+}
+
+hr {
+  border-top: 2px solid #262626;
+}
+
+#contact-card-body {
+  background-color: #262626;
+  color: #4c4c4c;
+}
+
+.card {
+  background-color: #0056B3;
+}
+
+address {
+  color: #ffffff;
+}
+
+.row-content {
+  padding-bottom: 30px;
+  border-bottom: none;
 }
