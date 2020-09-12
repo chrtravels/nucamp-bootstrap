@@ -49,12 +49,3 @@ header h2 {
 .carousel {
   border: solid #5637DD;
 }
-
-/* Code Challenge Styling Below: */
-
-.footer-darkmode {
-  background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
-  padding: 20px 0;
-  color: white;
-  
-}
